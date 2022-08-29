@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="cuma"></h3>
+    <h3 id="class" class="cuma"></h3>
+    <h3 class="cuma"></h3>
+
+    <ol>
+        <li class="cuma"></li>
+        <li class="cuma"></li>
+        <li id="id" class="cuma"></li>
+    </ol>
+    <ul>
+    <li><a href="index.html">Ana Sayfa</a></li>
+    <li><a href="ders1.html">Ders 1</a></li>
+    <li><a href="ders2.html">Ders 2</a></li>
+    <li><a href="ders3.html">Ders 3</a></li>
+    <li> <a href="ders4.html">Ders 4</a></li>
+    <li><a href="ders5.html">Ders 5</a></li>
+    <li><a href="ders6.html">Ders 6</a></li>
+</ul>
+
+
+<script>
+    var h3Liste=["havuç","halı","hırka"];
+    var liListe=["Erzurum","Elazığ","Muş"]
+for(var i=0;i<h3Liste.length;i++) {
+    liListe[i].innerHTML = h3Liste[i]
+}
+
+var h3Listesi = document.querySelectorAll("h3.cuma"); 
+var liListesi=document.querySelectorAll("li.cuma");
+
+
+
+
+
+function liRenkDegis(){
+    li[2].style.backgroundColor ="red";
+    li[1].color="blue";
+}
+function liYerDegis(){ 
+
+}
+</script>
+
+
+</body>
+</html>
